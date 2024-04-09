@@ -1,0 +1,11 @@
+.movies-list {
+    display: flex;
+    flex-flow: wrap;
+    gap: 48px 20px;
+
+    margin-bottom: 24px;
+}
+.card {
+    width: calc(100% / 5 - 20px / 5 * 4);
+    min-height: 300px;
+}
